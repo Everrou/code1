@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<link rel="stylesheet" href="index.css">
+<script src="index.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div class="bg-ex-animation">
+<h1> Угадай-ка </h1>
+<div class="top1">
+    <p>
+    <label id="hint"></label><br>
+    <input type="text" id="secret" size="20" readonly>
+</p>
+</div>
+
+<div class="top2">
+    <p>
+    <label>Вводи по одной букве!</label><br>
+        <input type="text" id="letter" size="3" maxlength="1">
+        <button id="tryit">Проверить букву!</button>
+
+    </p>
+</div>
+
+    <div class="top3">
+    <p id="result">
+    <label>Кол-во попыток:</label><br>
+    <input type="text" id="numretries" size="5" value="0" readonly>
+    <button id="again">Еще разок ?&#129315;&#129315;</button>
+</p>
+</div>
+</div>
+
+</body>
+
+
+</html>

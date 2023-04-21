@@ -1,0 +1,90 @@
+.bg-ex-animation {
+  background-image: url(../img/code1.jpg); /* Путь к картинке */
+  background-position: 0 0;
+  background-repeat: repeat;
+  animation: animated-bg 20s linear infinite;
+  width: 100%;
+height: 1350px;
+
+}
+
+@keyframes animated-bg {
+  from { background-position: 0 0; }
+  to { background-position: 0 1000px; }
+}
+
+.top1 {
+height: 100px;
+    top:120px;
+    padding:20px 50px;
+    width:450px;
+   margin: auto;
+position: relative;
+
+}
+.top2 {
+height: 100px;
+    top:120px;
+position: relative;
+    padding:20px 50px;
+    width:450px;
+    margin: auto;
+}
+.top3 {
+height: 100px;
+    top:120px;
+position: relative;
+    padding:20px 50px;
+    width:450px;
+    margin: auto;
+}
+
+button{
+  position: absolute;
+   right: 200px;
+    top:45%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+input {
+width:150px;
+height: 25px;
+  right: 50px;
+}
+
+label {
+    background: linear-gradient(to left,
+    #070704,
+                    indigo,
+                    blue,
+                    green,
+    #050536,
+    #ef0909,
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;
+}
+
+
+h1 {
+    background: linear-gradient(to left,
+    #070704,
+                    indigo,
+                    blue,
+                    green,
+    #050536,
+    #ef0909,
+    #28ee31);
+            -webkit-background-clip: text;
+            color: transparent;
+position: absolute;
+   right: 800px;
+    top:5%;
+}
+
+
+
